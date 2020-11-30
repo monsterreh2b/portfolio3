@@ -1,6 +1,9 @@
 /* nav h4, nav a {
     font-family: 'Questrial', sans-serif;
 } */
+body{
+    font-family: 'Questrial', sans-serif;
+}
 
 nav {
     box-shadow: -12px 2px 11px 0 rgba(0,0,0,0.43);
@@ -22,6 +25,7 @@ ul.nav-links {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    margin-top: 22px;
 }
 
 /* a.top-links {
@@ -33,4 +37,26 @@ nav a {
 
 nav a:hover {
     color: dodgerblue;
+}
+
+.dropdown{
+ display: none;
+ position: absolute;
+    left: 70%;
+    line-height: 1.6;
+    margin-top: 10px;
+    background-color: white;
+    padding-right: 40px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+}
+
+ul.no-bullets a {
+    text-decoration: none;
+}
+
+.left h4 {
+    margin-top: 22px;
 }

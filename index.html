@@ -10,7 +10,7 @@
   <link rel="stylesheet" type = "text/css" href="./assets/css/style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -20,12 +20,21 @@
         <div class="left"><h4 style="font-family: 'Questrial', sans-serif;">My Awesome Portfolio</h4></div>
         <div class="right"><ul class="nav-links">
           <li><a href="index.html" style="text-decoration:none;font-family: 'Questrial', sans-serif;">About</a></li>
-          <li><a href="portfolio.html" style="text-decoration:none;font-family: 'Questrial', sans-serif;">Portfolio</a></li>
+          <div id="drop-port">
+          <li><a href="#" id="portfolio" style="text-decoration:none;font-family: 'Questrial', sans-serif;">Portfolio</a></li>
+          <div class="dropdown">
+<ul class="no-bullets">
+<li><a href="#">Page 1</a></li>
+<li><a href="#">Page 2</a></li>
+<li><a href="#">Page 3</li></a>
+</ul>
+</div>
+</div>
 <li><a href="contact.html" style="text-decoration:none;font-family: 'Questrial', sans-serif;">Contact</a></li>
         </ul>
 </div>
       </div>
     </nav>
-  <script src="js/scripts.js"></script>
+  <script src="./script/app.js"></script>
 </body>
 </html>
