@@ -11,10 +11,17 @@ nav {
 .nav-center {
     display: flex;
     justify-content: center;
+    background-color: #23303E;
 }
+
+.nav-center a, .nav-center ul {
+    color: white;
+}
+
 .left {
     text-align: left;
     margin-left: 24px;
+    display:flex;
 }
 
 .left, .right {
@@ -36,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-    color: dodgerblue;
+    color: #FE9801;
 }
 
 .dropdown{
@@ -45,7 +52,7 @@ nav a:hover {
     left: 70%;
     line-height: 1.6;
     margin-top: 10px;
-    background-color: white;
+    background-color:#23303E;
     padding-right: 40px;
 }
 
@@ -98,4 +105,8 @@ grid-column: 1 / -1;
 
 .yellow {
     background-color: yellow;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
 }

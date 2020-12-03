@@ -1,10 +1,41 @@
-<html>
-<head>
-<link rel="stylesheet" type = "text/css" href="./assets/css/style.css">
-</head>
-<body>
-<div class="container">
+<!doctype html>
 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" type = "text/css" href="./assets/css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<nav>
+      <div class="nav-center">
+        <div class="left"><span><a href="index.html"><img alt="" style="margin-right:12px;position:relative;top:6px" src="./assets/images/code (2).png" width="50px"></a></span><a href="index.html" style="text-decoration:none"><h4 style="font-family: 'Questrial', sans-serif;">My Awesome Portfolio</h4></a></div>
+        <div class="right"><ul class="nav-links">
+          <li><a href="about.html" style="text-decoration:none;font-family: 'Questrial', sans-serif;">About</a></li>
+          <div id="drop-port">
+          <li><a href="#" id="portfolio" style="text-decoration:none;font-family: 'Questrial', sans-serif;">Portfolio</a><span><img alt="" style="margin-left:10px;" src="./assets/images/white-dropdown-small.png"></span></li>
+          <div class="dropdown">
+<ul class="no-bullets">
+<li><a href="page1.html">Page 1</a></li>
+<li><a href="page2.html">Page 2</a></li>
+<li><a href="page3.html">Page 3</li></a>
+</ul>
+</div>
+</div>
+<li><a href="contact.html" style="text-decoration:none;font-family: 'Questrial', sans-serif;">Contact</a></li>
+        </ul>
+</div>
+      </div>
+    </nav>
+    <div class="container margin-top-20">
 <div class="item1 yellow">item1</div>
 <div class="item2 yellow">item2</div>
 <div class="item3 yellow">item3</div>
@@ -12,5 +43,6 @@
 <div class="item5 yellow">item5</div>
 <div class="item6 yellow">item6</div>
 </div>
+  <script src="./script/app.js"></script>
 </body>
 </html>
