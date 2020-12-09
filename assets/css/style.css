@@ -53,7 +53,8 @@ nav a:hover {
     line-height: 1.6;
     margin-top: 10px;
     background-color:#23303E;
-    padding-right: 40px;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 ul.no-bullets {
@@ -99,8 +100,8 @@ grid-column: 1 / -1;
     margin: 0 auto;
     display: grid;
     grid-gap: 60px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 222px 220px 220px;
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: 160px 160px 160px;
 }
 
 .yellow {
@@ -108,5 +109,47 @@ grid-column: 1 / -1;
 }
 
 .margin-top-20 {
-    margin-top: 20px;
+    margin-top: 80px;
+}
+
+div#hangman {
+    background: url(../images/Boostrap_logo.svg);
+    background-repeat: no-repeat;
+    background-size: 220px 164px;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+}
+
+div#rpg {
+    background: url(../images/dancers-photo.png);
+    background-repeat: no-repeat;
+    background-size: 220px 164px;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+}
+
+div#calc {
+    background: url(../images/3915942881_b941af9809_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px 164px;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+}
+
+div#rutgers {
+    background: url(../images/1-12313172492sOG.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px 164px;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+}
+
+div#rock-paper {
+    background: url(../images/28356818991_24b9d5246d_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px 164px;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+}
+
+div#crystal {
+    background: url(../images/crystal-881078_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px 164px;
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
 }
