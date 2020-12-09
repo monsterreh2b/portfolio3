@@ -112,18 +112,21 @@ grid-column: 1 / -1;
     margin-top: 80px;
 }
 
+.item1:hover {
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+}
 div#hangman {
     background: url(../images/Boostrap_logo.svg);
     background-repeat: no-repeat;
     background-size: 220px 164px;
-    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+    
 }
 
 div#rpg {
     background: url(../images/dancers-photo.png);
     background-repeat: no-repeat;
     background-size: 220px 164px;
-    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+   
 }
 
 div#calc {
@@ -137,19 +140,19 @@ div#rutgers {
     background: url(../images/1-12313172492sOG.jpg);
     background-repeat: no-repeat;
     background-size: 220px 164px;
-    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+    
 }
 
 div#rock-paper {
     background: url(../images/28356818991_24b9d5246d_b.jpg);
     background-repeat: no-repeat;
     background-size: 220px 164px;
-    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+    
 }
 
 div#crystal {
     background: url(../images/crystal-881078_640.jpg);
     background-repeat: no-repeat;
     background-size: 220px 164px;
-    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+    
 }
