@@ -69,12 +69,6 @@ ul.no-bullets a {
     margin-top: 22px;
 }
 
-.container {
-display: grid;
-grid-gap: 3px;
-grid-template-columns: repeat(12, 1fr);
-grid-template-rows: 40px 200px 40px;
-}
 
 .header {
 grid-column: 2 / -1;
@@ -100,8 +94,9 @@ grid-column: 1 / -1;
     margin: 0 auto;
     display: grid;
     grid-gap: 60px;
-    grid-template-columns: repeat(3, 220px);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-rows: 160px 160px 160px;
+    grid-auto-rows: minmax(160px, auto);
 }
 
 .yellow {
@@ -119,41 +114,122 @@ grid-column: 1 / -1;
 div#hangman {
     background: url(../images/Boostrap_logo.svg);
     background-repeat: no-repeat;
-    background-size: 220px 164px;
+    /* background-size: 220px 164px; */
+    background-size: cover;
     
 }
 
 div#rpg {
     background: url(../images/dancers-photo.png);
     background-repeat: no-repeat;
-    background-size: 220px 164px;
+    /* background-size: 220px 164px; */
+    background-size: cover;
    
 }
 
 div#calc {
     background: url(../images/3915942881_b941af9809_b.jpg);
     background-repeat: no-repeat;
-    background-size: 220px 164px;
-    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
+    /* background-size: 220px 164px; */
+    background-size: cover;
+
 }
 
 div#rutgers {
     background: url(../images/1-12313172492sOG.jpg);
     background-repeat: no-repeat;
-    background-size: 220px 164px;
+    /* background-size: 220px 164px; */
+    background-size: cover;
     
 }
 
 div#rock-paper {
     background: url(../images/28356818991_24b9d5246d_b.jpg);
     background-repeat: no-repeat;
-    background-size: 220px 164px;
+    /* background-size: 220px 164px; */
+    background-size: cover;
     
 }
 
 div#crystal {
     background: url(../images/crystal-881078_640.jpg);
     background-repeat: no-repeat;
-    background-size: 220px 164px;
+    /* background-size: 220px 164px; */
+    background-size: cover;
     
+}
+
+div#psychic {
+    background: url(../images/fortune-telling-1989579_960_720.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+    
+}
+
+div#basketball {
+    background: url(../images/7345d1088900a7e09bc2d552c161ed6b_basketball-court-wallpapers-hd-basketball-court-background-clipart_2000-1328.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+    
+}
+
+div#nba {
+    background: url(../images/9163118621_6383b11002_b.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+    
+}
+
+div#train {
+    background: url(../images/data4.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+    
+}
+
+div#getMeThere {
+    background: url(../images/back1.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+    
+}
+
+div#drumkit {
+    background: url(../images/drumz.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+    
+}
+
+div#connactivities {
+    background: url(../images/connactivities.png);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+    
+}
+
+div#burger {
+    background: url(../images/burgery-min.png);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+    
+}
+
+.item1, div#hangman, div#rpg, div#calc, div#rutgers, div#rock-paper, div#crystal, div#psychic, div#basketball, div#nba, div#train, div#getMeThere, div#drumkit, div#connactivities, div#burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 h2 {
+    background-color: white;
+    padding: 10px;
 }
