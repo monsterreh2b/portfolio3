@@ -273,3 +273,34 @@ p.footy {
     padding-top: 20px;
     color: white;
 }
+
+.mini-wrapper {
+    width: 80%;
+    height: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.lefty {
+    width: 70%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.righty {
+    width: 28%;
+    height: 100%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stacked, .linked, .email {
+    height: 30%;
+    border: 1px solid blue;
+    margin-bottom: 7px;
+}
