@@ -36,17 +36,16 @@
 </div>
       </div>
     </nav>
-   <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-                <form action="https://formspree.io/f/xwkwryqd" method="POST">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Type your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </div>
+   <div class="contact" style="margin-top:40px;"><form action="https://formspree.io/f/xwkwryqd" method="POST">
+					<br>
+					 Name<br>
+					 <input type="text" name=“name” value=""><br><br>
+					 Email<br>
+					 <input type="email" name="email" value=""><br><br>
+					 Message<br>
+					 <textarea name="comment" id="message" rows="10"></textarea><br><br>
+					 <input type="submit" value="Submit">
+    </form></div>
   <script src="./script/app.js"></script>
 </body>
 </html>

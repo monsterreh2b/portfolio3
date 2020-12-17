@@ -107,7 +107,7 @@ grid-column: 1 / -1;
     margin-top: 80px;
 }
 
-.item1:hover {
+.item1:hover, {
     box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.25);
     cursor: pointer;
 }
@@ -232,4 +232,26 @@ div#burger {
 .item1 h2 {
     background-color: white;
     padding: 10px;
+}
+
+input[type="text"], input[type=email], textarea {
+    width: 93%;
+    border: 1px solid #dddddd;
+    font-size: 18px;
+}
+
+.contact {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    background-color: #23303E;
+    color: white;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    cursor:pointer;
+    color: #FE9801;
 }
