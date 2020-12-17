@@ -264,6 +264,12 @@ input[type="submit"]:hover {
 
 .footer {
     background-color: #23303E;
-    height: 53px;
+    height: 100px;
     width: 100%;
+    text-align: center;
+}
+
+p.footy {
+    padding-top: 20px;
+    color: white;
 }

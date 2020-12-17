@@ -46,7 +46,15 @@
 <div class="item1" id="crystal" onclick='window.location.href="https://monsterreh2b.github.io/week-4-game/"'><h2>Crystals Game</h2></div>
 </div>
 </div>
-<div class="footer"></div>
+<div class="footer"><p class="footy">© <span id="year">2020</span> Brant Han</p>
+
+  <!-- JS before /body -->
+  <script>
+  window.onload = function(){
+var date = new Date().getFullYear();
+document.getElementById("year").innerHTML = date;
+}
+  </script></div>
   <script src="./script/app.js"></script>
 </body>
 </html>
