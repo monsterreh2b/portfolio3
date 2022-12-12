@@ -281,7 +281,7 @@ input[type="submit"]:hover {
 }
 
 .wrapper {
-    height: 550px;
+    height: 1000px;
     border-top: 1px solid red;
     border-bottom: 1px solid red;
 }
