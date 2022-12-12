@@ -191,8 +191,8 @@ div#train {
     
 }
 
-div#getMeThere {
-    background: url(../images/back1.jpg);
+div#loremIpsum {
+    background: url(../images/lorem-ipsum.jpg);
     background-repeat: no-repeat;
     /* background-size: 220px 164px; */
     background-size: cover;
@@ -207,23 +207,47 @@ div#drumkit {
     
 }
 
-div#connactivities {
-    background: url(../images/connactivities.png);
+div#password {
+    background: url(../images/password-generator.jpg);
     background-repeat: no-repeat;
     /* background-size: 220px 164px; */
     background-size: cover;
     
 }
 
-div#burger {
-    background: url(../images/burgery-min.png);
+div#blackjack {
+    background: url(../images/blackjack.jpg);
     background-repeat: no-repeat;
     /* background-size: 220px 164px; */
     background-size: cover;
     
 }
 
-.item1, div#hangman, div#rpg, div#calc, div#rutgers, div#rock-paper, div#crystal, div#psychic, div#basketball, div#nba, div#train, div#getMeThere, div#drumkit, div#connactivities, div#burger {
+div#scoreboard {
+    background: url(../images/scoreboard.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+
+}
+
+div#passenger {
+    background: url(../images/passengers.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+
+}
+
+div#bookmarker {
+    background: url(../images/bookmarker.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+
+}
+
+.item1, div#hangman, div#rpg, div#calc, div#rutgers, div#rock-paper, div#crystal, div#psychic, div#basketball, div#nba, div#train, div#loremIpsum, div#drumkit, div#connactivities, div#burger, div#blackjack, div#scoreboard {
     display: flex;
     align-items: center;
     justify-content: center;
