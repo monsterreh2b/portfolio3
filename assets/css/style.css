@@ -207,6 +207,13 @@ div#drumkit {
     
 }
 
+div#unit {
+    background: url(../images/engineering_ruler-min.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+}
+
 div#password {
     background: url(../images/password-generator.jpg);
     background-repeat: no-repeat;
@@ -247,7 +254,7 @@ div#bookmarker {
 
 }
 
-.item1, div#hangman, div#rpg, div#calc, div#rutgers, div#rock-paper, div#crystal, div#psychic, div#basketball, div#nba, div#train, div#loremIpsum, div#drumkit, div#connactivities, div#burger, div#blackjack, div#scoreboard {
+.item1, div#hangman, div#rpg, div#calc, div#rutgers, div#rock-paper, div#crystal, div#psychic, div#basketball, div#nba, div#train, div#loremIpsum, div#drumkit, div#connactivities, div#burger, div#blackjack, div#scoreboard, div#unit {
     display: flex;
     align-items: center;
     justify-content: center;
