@@ -214,6 +214,13 @@ div#unit {
     background-size: cover;
 }
 
+div#costco {
+    background: url(../images/360_F_448550234_boBAtYIx3GlNkBh5aiYbG2XT0s6D9p45.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 220px 164px; */
+    background-size: cover;
+}
+
 div#password {
     background: url(../images/password-generator.jpg);
     background-repeat: no-repeat;
@@ -254,7 +261,7 @@ div#bookmarker {
 
 }
 
-.item1, div#hangman, div#rpg, div#calc, div#rutgers, div#rock-paper, div#crystal, div#psychic, div#basketball, div#nba, div#train, div#loremIpsum, div#drumkit, div#connactivities, div#burger, div#blackjack, div#scoreboard, div#unit {
+.item1, div#hangman, div#rpg, div#calc, div#rutgers, div#rock-paper, div#crystal, div#psychic, div#basketball, div#nba, div#train, div#loremIpsum, div#drumkit, div#connactivities, div#burger, div#blackjack, div#scoreboard, div#unit, div#costco {
     display: flex;
     align-items: center;
     justify-content: center;
